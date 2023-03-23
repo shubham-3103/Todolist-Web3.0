@@ -7,15 +7,15 @@ then make package.json and add dependency then run command npm install in termin
 then make a file in contracts folder by any name for example todolist.sol
 ,then import solidity by writing `pragram solidity@version`
 
-then, write contract classname{
+`then, write contract classname{
     // CODE BODY
-}
+}`
 
 to compile your program to test write 
-truffle compile in terminal
+`truffle compile in terminal`
 
 then check truffle-config.js file and change to this one ->
-module.exports = {
+`module.exports = {
   networks: {
     development: {
      host: "127.0.0.1",     // Localhost (default: none)
@@ -29,7 +29,7 @@ module.exports = {
        }
     } 
   }
-}
+}`
 
 
 now lets create a migration file in order to get the smart contract in the blockchain so
